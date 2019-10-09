@@ -1,3 +1,23 @@
+.container-fluid {
+    background-color: #3C3F41!important;
+}
+
+.ace-jsoneditor .ace_scroller {
+    background-color: #2B2B2B!important;
+}
+
+.ace-jsoneditor .ace_gutter {
+    background-color: #313335!important;
+}
+
+div.jsoneditor {
+    border:thin solid #4D4D4D!important;
+}
+
+.ace_gutter-cell {
+    color:#606366!important;
+}
+
 .mainBox{
     position: relative;
     padding: 0px 30px 0px 10px;
