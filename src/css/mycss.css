@@ -1,30 +1,64 @@
 .container-fluid {
-    background-color: #3C3F41!important;
+    background-color: #3C3F41 !important;
 }
 
 .ace-jsoneditor .ace_scroller {
-    background-color: #2B2B2B!important;
+    background-color: #2B2B2B !important;
 }
 
 .ace-jsoneditor .ace_gutter {
-    background-color: #313335!important;
+    background-color: #313335 !important;
 }
 
 div.jsoneditor {
-    border:thin solid #4D4D4D!important;
+    border: thin solid #4D4D4D !important;
 }
 
 .ace_gutter-cell {
-    color:#606366!important;
+    color: #606366 !important;
 }
 
-.mainBox{
+.ace-jsoneditor .ace_text-layer {
+    color: white !important;
+}
+
+div.jsoneditor-statusbar {
+    color: #BBBBBB !important;
+    background-color: #3C3F41 !important;
+}
+
+.ace-jsoneditor .ace_gutter-active-line {
+    background-color: #323232 !important;
+}
+
+div.jsoneditor-menu {
+    background-color: #3C3F41 !important;
+    border-bottom: 1px solid #515151;
+}
+
+div.btn-group-right > button {
+    background-color: #3C3F41 !important;
+}
+
+.ace-jsoneditor .ace_variable {
+    color: #E8BF6A !important;
+}
+
+.ace-jsoneditor .ace_marker-layer .ace_active-line {
+    background: #323232 !important;
+}
+
+.tool-right {
+    color: white !important;
+}
+
+.mainBox {
     position: relative;
     padding: 0px 30px 0px 10px;
     box-sizing: border-box;
 }
 
-.tool-right{
+.tool-right {
     position: absolute;
     top: 30px;
     right: 10px;
@@ -39,30 +73,30 @@ div.jsoneditor {
     float: right;
 }
 
-.btn-group-right a{
+.btn-group-right a {
     width: 45px;
     margin: 8px 2px 0px 0px;
-    padding: 0;    
+    padding: 0;
 }
 
-div.btn-group-right>button {
+div.btn-group-right > button {
     width: 26px;
     height: 26px;
     margin: 2px;
     padding: 0;
     border-radius: 2px;
     border: 1px solid transparent;
-    background-color:#3883fa;
-    font-family: arial,sans-serif;
+    background-color: #3883fa;
+    font-family: arial, sans-serif;
 }
 
-div.btn-group-right>button:hover {
-    background-color: rgba(255,255,255,.2);
-    border: 1px solid rgba(255,255,255,.4)
+div.btn-group-right > button:hover {
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid rgba(255, 255, 255, .4)
 }
 
-div.btn-group-right>button:active,div.btn-group-right>button:focus {
-    background-color: rgba(255,255,255,.3)
+div.btn-group-right > button:active, div.btn-group-right > button:focus {
+    background-color: rgba(255, 255, 255, .3)
 }
 
 /*Bootstrap 5/12*/
