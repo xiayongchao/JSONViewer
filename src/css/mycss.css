@@ -52,6 +52,10 @@ div.btn-group-right > button {
     color: white !important;
 }
 
+.ace-jsoneditor .ace_string {
+    color: #A5C261 !important;
+}
+
 .mainBox {
     position: relative;
     padding: 0px 30px 0px 10px;
