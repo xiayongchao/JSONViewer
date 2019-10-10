@@ -53,7 +53,15 @@ div.btn-group-right > button {
 }
 
 .ace-jsoneditor .ace_string {
-    color: #A5C261 !important;
+    color: #01FF70 !important;
+}
+
+.ace-jsoneditor .ace_marker-layer .ace_selection {
+    background: #3399FF !important;
+}
+
+.ace-jsoneditor .ace_marker-layer .ace_selected-word {
+    border: 1px solid #3399FF !important;
 }
 
 .mainBox {
